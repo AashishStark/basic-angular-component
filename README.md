@@ -9,9 +9,9 @@ To execute this code :
   1. Create new app ---->  ng new Angular_7
   2. Create 2 child components for @Input and @Output Decorator as:
       * ng g c child
-      * ng g c child1
+      * ng g c child2
   3. Create a service as:
-      * ng g s serv
+      * ng g s serve
   4. Copy these codes into their respective files and finally run as"
       * ng serve
   5. Open browser and type as 'localhost:4200' and .............
