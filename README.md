@@ -11,7 +11,7 @@ To execute this code :
       * ng g c child
       * ng g c child2
   3. Create a service as:
-      * ng g s serve
+      * ng g s serve1
   4. Copy these codes into their respective files and finally run as"
       * ng serve
   5. Open browser and type as 'localhost:4200' and .............
