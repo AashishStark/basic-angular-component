@@ -1,0 +1,37 @@
+<h1 style="text-align:center">Angular</h1>
+<div class="binding1">
+  
+  Binding
+  <br><br>
+  Humidity:
+  <select [(ngModel)]="selectedOption">
+    <option *ngFor="let option of options" [value]="option">{{option}}</option>
+  </select>
+
+  <p>Selected Humidity Value is : {{selectedOption}}</p><br>
+</div>
+
+
+<div class="in"><br>
+  @Input Decorator<br><br>
+  Weather Quality:&nbsp;&nbsp;&nbsp;<input type="number" [(ngModel)]="weather">
+  <app-child [parentt] ="weather"></app-child>
+  <br>
+</div>
+
+
+<div class="out"><br>
+  @Output Decorator<br><br>
+  <app-child2 (mEvent)="onSelect($event)"></app-child2><br><br>
+  The climate will be {{op}}<br><br>
+</div>
+
+<div class="ser"><br>
+  Service for Condition of the Temperature<br><br>
+  Place:<input type="text" [(ngModel)]="place"><br><br>
+  <button (click)="onsw()">Check</button>
+</div>
+
+
+
+

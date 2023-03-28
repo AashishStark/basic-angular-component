@@ -1,0 +1,21 @@
+.binding1{
+    left:70px;
+    text-align:center;
+    background-color:seagreen;
+}
+.in {
+  left: 70px;
+  text-align: center;
+  background-color: hotpink;
+}
+.out{
+  left: 70px;
+  text-align: center;
+  background-color: darkgray;
+}
+
+.ser {
+  left: 70px;
+  text-align: center;
+  background-color: sandybrown;
+}
